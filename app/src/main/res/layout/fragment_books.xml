@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="@string/Fragment_books"
+        android:textSize="26sp"/>
+
+
+    <Button
+        android:id="@+id/comedyId"
+        android:layout_width="366dp"
+        android:layout_height="147dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="466dp"
+        android:text="Fitness Guide" />
+
+    <Button
+        android:id="@+id/scifiId"
+        android:layout_width="359dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="276dp"
+        android:text="Technology" />
+
+    <Button
+        android:id="@+id/dramaId"
+        android:layout_width="353dp"
+        android:layout_height="145dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="99dp"
+        android:text="Meditation" />
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="@string/Fragment_shopping"
+        android:textSize="26sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+            <ImageButton
+                android:id="@+id/winterId"
+                android:layout_width="wrap_content"
+                android:layout_height="295dp"
+                android:src="@drawable/winter"
+                android:contentDescription="Winter Shopping"/>
+
+            <ImageButton
+                android:id="@+id/summerId"
+                android:layout_width="wrap_content"
+                android:layout_height="266dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/summer"
+                android:contentDescription="Keto"/>
+            <ImageButton
+                android:id="@+id/menId"
+                android:layout_width="wrap_content"
+                android:layout_height="266dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/men"
+                android:contentDescription="Menz"/>
+            <ImageButton
+                android:id="@+id/womenId"
+                android:layout_width="wrap_content"
+                android:layout_height="266dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/women"
+                android:contentDescription="Paleo"/>
+            <ImageButton
+                android:id="@+id/kidId"
+                android:layout_width="wrap_content"
+                android:layout_height="266dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/kids"
+                android:contentDescription="Mediterrian"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

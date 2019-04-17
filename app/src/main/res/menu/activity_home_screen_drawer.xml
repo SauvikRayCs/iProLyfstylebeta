@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fitnessFrame"
+            android:icon="@drawable/ic_fitness_24dp"
+            android:title="Fitness Plan" />
+        <item
+            android:id="@+id/nav_dietFrame"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Diet Plan" />
+        <item
+            android:id="@+id/nav_shoppingFrame"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="Shopping ideas" />
+        <item
+            android:id="@+id/nav_booksFrame"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="Reading Books" />
+        <item
+            android:id="@+id/nav_quotesFrame"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="Motivational quotes" />
+    </group>
+
+    <item android:title="Documents" >
+    <menu>
+        <item
+            android:id="@+id/nav_jornals"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Journals" />
+        <item
+            android:id="@+id/nav_remind"
+            android:icon="@drawable/ic_brightness_1_black_24dp"
+            android:title="Personal Assistant" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bookmarks" />
+
+    </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ratings" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Comments" />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>
